@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures.Calc", "Figures.Cal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures.CalcTests", "Figures.CalcTests\Figures.CalcTests.csproj", "{D01848DD-F98C-4C17-AD6D-BB8234BA8263}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19D34A8B-25EC-47A4-9F01-435558241AA1}"
+	ProjectSection(SolutionItems) = preProject
+		ProductsCategoriesQuery.sql = ProductsCategoriesQuery.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
