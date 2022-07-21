@@ -9,19 +9,18 @@ using System.Threading.Tasks;
 namespace Figures.Calc.Tests
 {
     [TestClass()]
-    public class TriangleTests
+    public class CircleTests
     {
+
         [TestMethod()]
         public void GetSquareTest()
         {
             //Arrange
-            Triangle triangle = new Triangle(4d, 5d, 6d);
-            double perimeter = (4d + 5d + 6d)/2;
-            double predictedResult = Math.Sqrt(perimeter * (perimeter - 4d) * (perimeter - 5d) * (perimeter - 6d));
-
+            Circle circle = new Circle(24d);
+            double predictedResult = Math.PI * Math.Pow(24d, 2d);
 
             //Act
-            var result = triangle.GetSquare();
+            double result = circle.GetSquare();
 
             //Assert
             Assert.AreEqual(predictedResult, result);

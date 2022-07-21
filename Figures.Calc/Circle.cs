@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Figures.Calc
 {
-    internal class Circle : IFigure
+    public class Circle : IFigure
     {
         private readonly double radius;
 
